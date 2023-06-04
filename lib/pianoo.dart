@@ -13,7 +13,10 @@ class Pianoo extends StatefulWidget {
 }
 
 class _PianooState extends State<Pianoo> {
-  List<String> list = <String>['piano', 'Flute', 'Strings'];
+  List<String> list = <String>[
+    'piano',
+    'Flute',
+  ];
   String? dropdownValue;
   FlutterMidi flutterMidi = FlutterMidi();
 
